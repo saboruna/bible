@@ -9,6 +9,16 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
+			<styleUrl>#sh_caution0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_caution0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
 			<styleUrl>#sh_caution</styleUrl>
 		</Pair>
 	</StyleMap>
@@ -53,7 +63,29 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_caution0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_caution">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_caution0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -225,6 +257,25 @@
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>32.69894249842527,29.2241496511931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>aiueo</name>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>32.60384709324515</longitude>
+				<latitude>29.40077230745657</latitude>
+				<altitude>0</altitude>
+				<heading>-0.9585704229029071</heading>
+				<tilt>0</tilt>
+				<range>130526.8379511107</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>32.26066675966837,29.60249364495874,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
