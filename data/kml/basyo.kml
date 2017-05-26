@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>basyo.kml</name>
+	<StyleMap id="msn_caution">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_caution</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_caution</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_caution">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_caution">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>aiueo</name>
+		<open>1</open>
+		<Placemark>
+			<name>カナン</name>
+			<description>別称「約束の地」
+アブラハムがヤハウェ神に啓示を受け向かった
+アブラハムの妻サラは不妊であったが、神の力でイサクという息子を授かった。それからしばらくして神はアブラハムの信仰を試そうとしてイサクを焼き尽くすささげものとして供えるよう求め、アブラハムはこれにしたがった。アブラハムがまさにイサクを屠ろうとしたとき、紙はアブラハムの信仰をみとめ、「あなたの子孫を天の星のように、海辺の砂のように増やそう。（中略）地上の諸国民はすべて、あなたの子孫によって祝福を得る。」と言いイサクを生かした。</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>35.03622940699827</longitude>
+				<latitude>31.56863957617052</latitude>
+				<altitude>0</altitude>
+				<heading>-0.02123319983214433</heading>
+				<tilt>0</tilt>
+				<range>128476.5729412016</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.03622940699827,31.56863957617052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ウル</name>
+			<description>バビロニア王国
+アブラハムの生まれた町</description>
+			<Camera>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>36.23088409355271</longitude>
+				<latitude>27.55597832446746</latitude>
+				<altitude>754698.8454929958</altitude>
+				<heading>-2.05257381560774</heading>
+				<tilt>3.446222828076206</tilt>
+				<roll>-0.6506347942475435</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>46.10305555555556,30.9625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハラン</name>
+			<description>ウルからカナンを目指したアブラハム一行が途中で住みついた街</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>38.85201264293637</longitude>
+				<latitude>37.07364851784769</latitude>
+				<altitude>0</altitude>
+				<heading>-0.6712078977455901</heading>
+				<tilt>4.938150485376682</tilt>
+				<range>72137.18863437705</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>38.85201264293637,37.07364851784769,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>バベルの塔</name>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>44.38596915304071</longitude>
+				<latitude>33.30734295808625</latitude>
+				<altitude>0</altitude>
+				<heading>1.123669774518027</heading>
+				<tilt>12.43961689178368</tilt>
+				<range>8057.728222590004</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>44.38596915304071,33.30734295808625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノアの箱舟</name>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>44.25850311196403</longitude>
+				<latitude>39.44457580821947</latitude>
+				<altitude>0</altitude>
+				<heading>-4.527696980375182</heading>
+				<tilt>29.97226171581096</tilt>
+				<range>550.0187261838129</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>44.25850311196403,39.44457580821947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノドの地</name>
+			<description>カインが弟のアベルを殺した</description>
+			<Camera>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>43.33908579184121</longitude>
+				<latitude>38.23150676874908</latitude>
+				<altitude>559128.9662770225</altitude>
+				<heading>-5.461738103903518</heading>
+				<tilt>17.48178840645568</tilt>
+				<roll>-1.129341281413736</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>44.42109298192337,40.57924298003609,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>エデンの園</name>
+			<description>アダムとエバの生まれた地</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>44.10154645526542</longitude>
+				<latitude>40.23139966902495</latitude>
+				<altitude>0</altitude>
+				<heading>-3.805433453917007</heading>
+				<tilt>0</tilt>
+				<range>297228.7081880006</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_caution</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>43.86440844095853,40.56256998856255,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
