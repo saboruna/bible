@@ -37,7 +37,6 @@
 			<scale>1.2</scale>
 			<Icon>
 				<href>../imges/cc.jpg</href>
-				<href>../imges/noanohakobune.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -48,7 +47,6 @@
 			<scale>3</scale>
 			<Icon>
 			  <href>../imges/cc.jpg</href>
-			  <href>../imges/noanohakobune.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
