@@ -2,6 +2,16 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>basyo.kml</name>
+	<Style id="sh_noanohakobune">
+		<IconStyle>
+			<scale>3.5</scale>
+			<Icon>
+				<href>C:/MAMP/htdocs/bible/data/images/noanohakobune.jpg</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_caution">
 		<Pair>
 			<key>normal</key>
@@ -9,51 +19,59 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_caution0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_caution0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_caution0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
 			<styleUrl>#sh_caution</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin">
+	<StyleMap id="msn_noanohakobune">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_noanohakobune</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sh_noanohakobune</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
+	<Style id="sn_cc">
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>../images/cc.jpg</href>
+				<href>C:/MAMP/htdocs/bible/data/images/cc.jpg</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl">
+	<Style id="sn_noanohakobune">
+		<IconStyle>
+			<scale>3</scale>
+			<Icon>
+				<href>C:/MAMP/htdocs/bible/data/images/noanohakobune.jpg</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_cc">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
-				<href>../images/cc.jpg</href>
+				<href>C:/MAMP/htdocs/bible/data/images/cc.jpg</href>
 			</Icon>
-			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_cc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_cc</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_cc</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_caution">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -63,29 +81,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_caution0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sh_caution">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_caution0">
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
@@ -192,7 +188,7 @@
 				<range>550.0187261838129</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_noanohakobune</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.25850311196403,39.44457580821947,0</coordinates>
@@ -240,8 +236,7 @@
 		</Placemark>
 		<Placemark>
 			<name>紅海スエズ湾</name>
-			<description>ヨセフの時代にエジプトに移住していたイスラエル人
-エジプトで教育を受けたモーセが、神から召命を受けて立ち上がり</description>
+			<description>ヨセフの時代にエジプトに移住していたイスラエル人達が王朝が変わったために迫害されるようになったが、エジプトで教育を受けたモーセが、イスラエル人たちを率いてエジプトを脱出した。エジプト軍の追跡を逃れるために、この海を二つに割って逃げ出した。</description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -253,29 +248,10 @@
 				<range>258542.4903089882</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<styleUrl>#msn_cc</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>32.69894249842527,29.2241496511931,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>aiueo</name>
-			<LookAt>
-				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
-</gx:TimeStamp>
-				<longitude>32.60384709324515</longitude>
-				<latitude>29.40077230745657</latitude>
-				<altitude>0</altitude>
-				<heading>-0.9585704229029071</heading>
-				<tilt>0</tilt>
-				<range>130526.8379511107</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_caution0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>32.26066675966837,29.60249364495874,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
