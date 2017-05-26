@@ -36,7 +36,7 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>../imges/cc.jpg</href>
+				<href>../images/cc.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -46,7 +46,7 @@
 		<IconStyle>
 			<scale>3</scale>
 			<Icon>
-			  <href>../imges/cc.jpg</href>
+			  <href>../images/noanohakobune.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -56,7 +56,7 @@
 		<IconStyle>
 			<scale>1.4</scale>
 			<Icon>
-				<href>C:/MAMP/htdocs/bible/data/images/cc.jpg</href>
+			  <href>../images/cc.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -157,10 +157,14 @@
 			</Point>
 		</Placemark>
 		<Placemark>
+		<TimeSpan>
+			<begin> 2016 </begin>
+			<end> 2017 </end>
+		</TimeSpan>
 			<name>バベルの塔</name>
 			<LookAt>
-				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
-</gx:TimeStamp>
+/*				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>*/
 				<longitude>44.38596915304071</longitude>
 				<latitude>33.30734295808625</latitude>
 				<altitude>0</altitude>
@@ -176,10 +180,14 @@
 			</Point>
 		</Placemark>
 		<Placemark>
+		<TimeSpan>
+			<begin> 2015 </begin>
+			<end> 2016 </end>
+		</TimeSpan>
 			<name>ノアの箱舟</name>
 			<LookAt>
-				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
-</gx:TimeStamp>
+		/*		<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>*/
 				<longitude>44.25850311196403</longitude>
 				<latitude>39.44457580821947</latitude>
 				<altitude>0</altitude>
