@@ -36,7 +36,8 @@
 		<IconStyle>
 			<scale>1.2</scale>
 			<Icon>
-				<href>C:/MAMP/htdocs/bible/data/images/cc.jpg</href>
+				<href>../imges/cc.jpg</href>
+				<href>../imges/noanohakobune.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
@@ -46,7 +47,8 @@
 		<IconStyle>
 			<scale>3</scale>
 			<Icon>
-				<href>C:/MAMP/htdocs/bible/data/images/noanohakobune.jpg</href>
+			  <href>../imges/cc.jpg</href>
+			  <href>../imges/noanohakobune.jpg</href>
 			</Icon>
 		</IconStyle>
 		<ListStyle>
