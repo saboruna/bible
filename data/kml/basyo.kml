@@ -3,31 +3,16 @@
 <Document>
 	<name>basyo.kml</name>
 	<open>1</open>
-	<StyleMap id="msn_wht-blank7">
+	<StyleMap id="msn_wht-blank2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank3</styleUrl>
+			<styleUrl>#sn_wht-blank9</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank8</styleUrl>
+			<styleUrl>#sh_wht-blank2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wht-blank">
-		<IconStyle>
-			<color>ff00ff00</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_wht-blank">
 		<IconStyle>
 			<color>ff00ff00</color>
@@ -43,7 +28,164 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_wht-blank7">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank3">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank11">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank10">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank2">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank00">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_wht-blank0">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank01">
 		<IconStyle>
 			<color>ff00ff00</color>
 			<scale>1.1</scale>
@@ -58,9 +200,44 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_wht-blank7">
+	<StyleMap id="msn_wht-blank14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank11">
 		<IconStyle>
 			<color>ffff5f2e</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank6">
+		<IconStyle>
+			<color>ff59ecff</color>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
@@ -88,110 +265,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_wht-blank10">
-		<IconStyle>
-			<color>ffff5f2e</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wht-blank13">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank1">
-		<IconStyle>
-			<color>ffff4ebb</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wht-blank14">
-		<IconStyle>
-			<color>ffff4ebb</color>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank2">
-		<IconStyle>
-			<color>ff59ecff</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank5">
-		<IconStyle>
-			<color>ff59ecff</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank8">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wht-blank3">
+	<Style id="sh_wht-blank0">
 		<IconStyle>
 			<color>ffff4ebb</color>
 			<scale>1.3</scale>
@@ -221,19 +295,33 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wht-blank4">
+	<Style id="sn_wht-blank8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank20</styleUrl>
+			<styleUrl>#sn_wht-blank2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank3</styleUrl>
+			<styleUrl>#sh_wht-blank4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wht-blank0">
+	<Style id="sh_wht-blank4">
 		<IconStyle>
-			<color>ffff4ebb</color>
+			<color>ff59ecff</color>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
@@ -246,8 +334,34 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_wht-blank10">
+	<Style id="sn_wht-blank1">
 		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank5">
+		<IconStyle>
+			<color>ff00ff00</color>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
@@ -275,38 +389,29 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wht-blank10">
+	<StyleMap id="msn_wht-blank5">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank11</styleUrl>
+			<styleUrl>#sn_wht-blank10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank7</styleUrl>
+			<styleUrl>#sh_wht-blank11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wht-blank14">
+	<StyleMap id="msn_wht-blank00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank00</styleUrl>
+			<styleUrl>#sn_wht-blank1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank14</styleUrl>
+			<styleUrl>#sh_wht-blank5</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wht-blank13">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wht-blank13">
+	<Style id="sn_wht-blank12">
 		<IconStyle>
+			<color>ffff4ebb</color>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
@@ -329,20 +434,38 @@
 			<styleUrl>#sh_wht-blank6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wht-blank">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wht-blank6">
+	<Style id="sh_wht-blank14">
 		<IconStyle>
-			<color>ff59ecff</color>
+			<color>ffff4ebb</color>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank13">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
@@ -369,177 +492,14 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_wht-blank4">
-		<IconStyle>
-			<color>ff59ecff</color>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank0">
+	<StyleMap id="msn_wht-blank6">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_wht-blank</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wht-blank5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wht-blank11">
-		<IconStyle>
-			<color>ffff5f2e</color>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wht-blank5">
-		<IconStyle>
-			<color>ff00ff00</color>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wht-blank8">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wht-blank11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wht-blank6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wht-blank11">
-		<IconStyle>
-			<color>ffff5f2e</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_wht-blank00">
-		<IconStyle>
-			<color>ffff4ebb</color>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wht-blank</styleUrl>
+			<styleUrl>#sh_wht-blank8</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_wht-blank9">
@@ -557,6 +517,46 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_wht-blank8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank13</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>basyo</name>
 		<open>1</open>
@@ -566,7 +566,6 @@
 
 ヤコブは双子の兄エサウを出し抜いて長子の祝福を得たため、兄から命を狙われることになって逃亡するが、天国に上る階段の夢（ヤコブの梯子）を見て、自分の子孫が偉大な民族になるという神の約束を受け、エサウとの和解を志す。エサウに会いに行く途中、ヤボク川の渡し）で天使と格闘したことから神の勝者を意味する「イスラエル」（「イシャラー（勝つ者）」「エル（神）」の複合名詞）の名を与えられる。これが後のイスラエルの国名の由来となった。イスラエルの民すなわちユダヤ人はみなヤコブの子孫を称する。]]></description>
 			<LookAt>
-
 				<longitude>35.94084891787993</longitude>
 				<latitude>32.10885080935515</latitude>
 				<altitude>0</altitude>
@@ -575,7 +574,7 @@
 				<range>50241.24979977424</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank11</styleUrl>
+			<styleUrl>#msn_wht-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>35.94084891787993,32.10885080935515,0</coordinates>
@@ -618,7 +617,7 @@
 				<roll>-0.6506347942475435</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_wht-blank</styleUrl>
+			<styleUrl>#msn_wht-blank0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>46.10305555555556,30.9625,0</coordinates>
@@ -629,7 +628,6 @@
 			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPnVkdVwAMH3Mz.jpg"><br>イエスの誕生<br><br>イエス生誕の地。
 聖母マリアは処女であるにもかかわらず突然子を授かり戸惑っていたが、天使から「あなたは神から恵みをいただいた。あなたは身ごもって男の子を産むが、その子をイエスと名付けなさい。その子は偉大な人になり、いと高き方の子と言われる。神である主は、彼に父ダビデの王座をくださる。彼は永遠にヤコブの家を治め、その支配は終わることがない。」と伝えられた。]]></description>
 			<LookAt>
-
 				<longitude>35.20168337485522</longitude>
 				<latitude>31.64804931977947</latitude>
 				<altitude>0</altitude>
@@ -658,7 +656,7 @@
 				<range>72137.18863437705</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank</styleUrl>
+			<styleUrl>#msn_wht-blank0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.85201264293637,37.07364851784769,0</coordinates>
@@ -698,8 +696,7 @@
 				<range>550.0187261838129</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-
-			<styleUrl>#msn_wht-blank0</styleUrl>
+			<styleUrl>#msn_wht-blank00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.25850311196403,39.44457580821947,0</coordinates>
@@ -720,7 +717,7 @@
 				<roll>-1.129341281413736</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_wht-blank0</styleUrl>
+			<styleUrl>#msn_wht-blank00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.42109298192337,40.57924298003609,0</coordinates>
@@ -741,7 +738,7 @@
 				<range>297228.7081880006</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank0</styleUrl>
+			<styleUrl>#msn_wht-blank00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>43.86440844095853,40.56256998856255,0</coordinates>
@@ -774,7 +771,6 @@
 			<name>ソドムとゴモラ</name>
 			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhGErV0AEe-HX.jpg"><br>ソドムとゴモラ<br><br>甚だしい性の乱れが最大の原因で、天からの硫黄と火によって滅ぼされたとされる商業都市。ヤハウェの裁きによる滅びの象徴として用いられる。]]></description>
 			<LookAt>
-
 				<longitude>34.97894570293148</longitude>
 				<latitude>31.03461291833913</latitude>
 				<altitude>0</altitude>
@@ -796,7 +792,6 @@
 モーセの十戒<br><br>エジプト人として教育を受けたモーセが、神から召命を受けて立ち上がりイスラエル人たちを率いてエジプトを脱出し、「乳と蜜の流れる」カナンの地を目指しながら40年間放浪することとなる半島。
 シナイ山でモーセとイスラエル人は神から十戒を授かる。]]></description>
 			<LookAt>
-
 				<longitude>33.84358507999107</longitude>
 				<latitude>29.22610322431071</latitude>
 				<altitude>0</altitude>
@@ -815,7 +810,6 @@
 			<name>ネボ山</name>
 			<description>ネボ山から約束の地であるカナンを遠く望んだモーセは、ここでヨシュアを後継者に指名し息を引き取った。</description>
 			<LookAt>
-
 				<longitude>35.49308880503426</longitude>
 				<latitude>31.76889817715408</latitude>
 				<altitude>0</altitude>
@@ -832,9 +826,9 @@
 		</Placemark>
 		<Placemark>
 			<name>エリコ</name>
-			<description>アイコン：モーセとカナンからの使者
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBQnCcEVwAA94Y9.jpg"><br>エリコの戦い<br><br>
 
-モーセの後継者であるヨシュアが約束の地に入るべくヨルダン川を渡ってエリコを攻めた。エリコの城壁は司祭たちが吹く角笛と民の叫びの前に崩壊した。ヨシュアはエリコの人民を全て虐殺した。</description>
+モーセの後継者であるヨシュアが約束の地に入るべくヨルダン川を渡ってエリコを攻めた。エリコの城壁は司祭たちが吹く角笛と民の叫びの前に崩壊した。ヨシュアはエリコの人民を全て虐殺した。]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -846,7 +840,7 @@
 				<range>7754.729556209039</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank7</styleUrl>
+			<styleUrl>#msn_wht-blank6</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>35.46209475997843,31.86124494218132,0</coordinates>
@@ -952,7 +946,7 @@
 				<range>1003.769616507554</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank6</styleUrl>
+			<styleUrl>#msn_wht-blank60</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>35.23599283623734,31.77811610525155,0</coordinates>
@@ -972,7 +966,7 @@
 				<range>6843.910600101978</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_wht-blank6</styleUrl>
+			<styleUrl>#msn_wht-blank60</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>52.88877694260207,29.9356660983215,0</coordinates>
