@@ -8,7 +8,7 @@
 	<meta property="og:image" content="data/hinoshi.png" />
 	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>日野市オープンデータ可視化</title>
+	<title>聖書</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -101,8 +101,8 @@
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			timeline: true,
-			animation: true,
+			timeline: false,
+  		animation: false,
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -119,8 +119,8 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
-			requestVertexNormals: true
+			requestWaterMask: false,
+			requestVertexNormals: false
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
 
@@ -145,11 +145,13 @@
 
 		var viewPointsArray = [];
 
-		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
-		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
+		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高
+		viewPointsArray[1] = new viewPoints("全体俯瞰", 35.4153, 43.5250, 0, -100, 3100000);
+		viewPointsArray[2] = new viewPoints("アルメニア付近", 39.0000, 42.1515, 0, -90, 870000);
+		viewPointsArray[0] = new viewPoints("エルサレム周辺", 31.5727, 35.1224, 0, -55, 250000);
+		viewPointsArray[3] = new viewPoints("シナイ半島", 29.0562, 33.9257, 0, -80, 670000);
+		viewPointsArray[4] = new viewPoints("バビロニア周辺", 31.6814, 48.3543, 0, -80, 1250000);
 
 		//視点メニューを作成
 

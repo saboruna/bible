@@ -2,102 +2,590 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>basyo.kml</name>
-	<Style id="sh_noanohakobune">
-		<IconStyle>
-			<scale>3.5</scale>
-			<Icon>
-				<href>C:/MAMP/htdocs/bible/data/images/noanohakobune.jpg</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_caution">
+	<open>1</open>
+	<StyleMap id="msn_wht-blank7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_caution</styleUrl>
+			<styleUrl>#sn_wht-blank3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_caution</styleUrl>
+			<styleUrl>#sh_wht-blank8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_noanohakobune">
+	<Style id="sn_wht-blank">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank0">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank7">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank2">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank10">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank1">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank14">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank2">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank5">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank3">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank6">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_noanohakobune</styleUrl>
+			<styleUrl>#sn_wht-blank20</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_noanohakobune</styleUrl>
+			<styleUrl>#sh_wht-blank3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_cc">
+	<Style id="sh_wht-blank0">
 		<IconStyle>
-			<scale>1.2</scale>
+			<color>ffff4ebb</color>
+			<scale>1.3</scale>
 			<Icon>
-				<href>../images/cc.jpg</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_noanohakobune">
+	<Style id="sh_wht-blank10">
 		<IconStyle>
-			<scale>3</scale>
+			<scale>1.3</scale>
 			<Icon>
-			  <href>../images/noanohakobune.jpg</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_cc">
+	<Style id="sh_wht-blank1">
 		<IconStyle>
-			<scale>1.4</scale>
+			<color>ff59ecff</color>
+			<scale>1.3</scale>
 			<Icon>
-			  <href>../images/cc.jpg</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_cc">
+	<StyleMap id="msn_wht-blank10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_cc</styleUrl>
+			<styleUrl>#sn_wht-blank11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_cc</styleUrl>
+			<styleUrl>#sh_wht-blank7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_caution">
+	<StyleMap id="msn_wht-blank14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank13">
 		<IconStyle>
-			<scale>1.2</scale>
+			<scale>1.1</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<Style id="sh_caution">
+	<StyleMap id="msn_wht-blank3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank6">
 		<IconStyle>
-			<scale>1.4</scale>
+			<color>ff59ecff</color>
+			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank20">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank4">
+		<IconStyle>
+			<color>ff59ecff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank11">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_wht-blank5">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank8">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank11">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wht-blank00">
+		<IconStyle>
+			<color>ffff4ebb</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank9">
+		<IconStyle>
+			<color>ffff5f2e</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="7" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Folder>
-		<name>aiueo</name>
+		<name>basyo</name>
 		<open>1</open>
 		<Placemark>
+			<name>ヤボク川</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhGEmUwAEC6XQ.jpg"><br>天使と格闘するヤコブ<br><br>
+
+ヤコブは双子の兄エサウを出し抜いて長子の祝福を得たため、兄から命を狙われることになって逃亡するが、天国に上る階段の夢（ヤコブの梯子）を見て、自分の子孫が偉大な民族になるという神の約束を受け、エサウとの和解を志す。エサウに会いに行く途中、ヤボク川の渡し）で天使と格闘したことから神の勝者を意味する「イスラエル」（「イシャラー（勝つ者）」「エル（神）」の複合名詞）の名を与えられる。これが後のイスラエルの国名の由来となった。イスラエルの民すなわちユダヤ人はみなヤコブの子孫を称する。]]></description>
+			<LookAt>
+
+				<longitude>35.94084891787993</longitude>
+				<latitude>32.10885080935515</latitude>
+				<altitude>0</altitude>
+				<heading>9.50368186038451e-009</heading>
+				<tilt>0</tilt>
+				<range>50241.24979977424</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.94084891787993,32.10885080935515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>カナン</name>
-			<description>別称「約束の地」
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPks8DUMAMk6eF.jpg"><br>神にひとり子イサクを捧げようとするアブラハムと、それを制止する天使<br><br>別称「約束の地」<br>
 アブラハムがヤハウェ神に啓示を受け向かった
-アブラハムの妻サラは不妊であったが、神の力でイサクという息子を授かった。それからしばらくして神はアブラハムの信仰を試そうとしてイサクを焼き尽くすささげものとして供えるよう求め、アブラハムはこれにしたがった。アブラハムがまさにイサクを屠ろうとしたとき、紙はアブラハムの信仰をみとめ、「あなたの子孫を天の星のように、海辺の砂のように増やそう。（中略）地上の諸国民はすべて、あなたの子孫によって祝福を得る。」と言いイサクを生かした。</description>
+アブラハムの妻サラは不妊であったが、神の力でイサクという息子を授かった。それからしばらくして神はアブラハムの信仰を試そうとしてイサクを焼き尽くすささげものとして供えるよう求め、アブラハムはこれにしたがった。アブラハムがまさにイサクを屠ろうとしたとき、神はアブラハムの信仰をみとめ、「あなたの子孫を天の星のように、海辺の砂のように増やそう。地上の諸国民はすべて、あなたの子孫によって祝福を得る。」と言いイサクを生かした。]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -109,7 +597,7 @@
 				<range>128476.5729412016</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>35.03622940699827,31.56863957617052,0</coordinates>
@@ -117,8 +605,8 @@
 		</Placemark>
 		<Placemark>
 			<name>ウル</name>
-			<description>バビロニア王国
-アブラハムの生まれた町</description>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBQDnLzU0AAo3q5.jpg"><br>ウル第3王朝の時代に建てられたジッグラト<br><br>バビロニア王国
+ノアの洪水後、神による人類救済の出発点として選ばれ祝福された最初の預言者、アブラハムの生まれた町。]]></description>
 			<Camera>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -130,15 +618,35 @@
 				<roll>-0.6506347942475435</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>46.10305555555556,30.9625,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
+			<name>ベツレヘム</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPnVkdVwAMH3Mz.jpg"><br>イエスの誕生<br><br>イエス生誕の地。
+聖母マリアは処女であるにもかかわらず突然子を授かり戸惑っていたが、天使から「あなたは神から恵みをいただいた。あなたは身ごもって男の子を産むが、その子をイエスと名付けなさい。その子は偉大な人になり、いと高き方の子と言われる。神である主は、彼に父ダビデの王座をくださる。彼は永遠にヤコブの家を治め、その支配は終わることがない。」と伝えられた。]]></description>
+			<LookAt>
+
+				<longitude>35.20168337485522</longitude>
+				<latitude>31.64804931977947</latitude>
+				<altitude>0</altitude>
+				<heading>-1.062383089653729</heading>
+				<tilt>0</tilt>
+				<range>48194.93642117777</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.22407201972281,31.70340432955726,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>ハラン</name>
-			<description>ウルからカナンを目指したアブラハム一行が途中で住みついた街</description>
+			<description>ウルからカナンを目指したアブラハム一行が途中で住みついた街。古代メソポタミア北部およびシリア北部の商業・文化・政治・宗教の中心都市であった。</description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -150,21 +658,18 @@
 				<range>72137.18863437705</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>38.85201264293637,37.07364851784769,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-		<TimeSpan>
-			<begin> 2016 </begin>
-			<end> 2017 </end>
-		</TimeSpan>
 			<name>バベルの塔</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPkwdRV0AAm4lP.jpg"><br>バベルの塔<br><br>神はノアの息子たちに世界の各地を与え、そこに住むよう命じていた。しかし人々は、これら新技術を用いて天まで届く塔をつくり、人間が各地に散るのを免れようと考えた。神は降臨してこの塔を見「人間は言葉が同じなため、このようなことを始めた。人々の言語を乱し、通じない違う言葉を話させるようにしよう」と言った。このため、人間たちは混乱し、塔の建設をやめ、世界各地へ散らばっていった。]]></description>
 			<LookAt>
-/*				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
-</gx:TimeStamp>*/
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
 				<longitude>44.38596915304071</longitude>
 				<latitude>33.30734295808625</latitude>
 				<altitude>0</altitude>
@@ -173,21 +678,18 @@
 				<range>8057.728222590004</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank8</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.38596915304071,33.30734295808625,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-		<TimeSpan>
-			<begin> 2015 </begin>
-			<end> 2016 </end>
-		</TimeSpan>
 			<name>ノアの箱舟</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhGEtUwAAHLvX.jpg"><br>ノアの箱舟<br><br>神が人間が次第に堕落し始めたのを怒り、大洪水を起こして一度全滅させようと考えたが、とても真面目に働いているノアの一家だけは助けようと思い、そのことを知らせた。ノアはエホバの言う通り、方舟を造って洪水が起きるのを待った。やがて大雨が降り続き、世界が大洪水によって水没し、全ての生き物は地上から姿を消し、方舟は４０日間漂流した後、ついに水が引き、助かったノアは神に捧げ物を捧げ、同じような大洪水は二度と起こさないと神に約束させた。]]></description>
 			<LookAt>
-		/*		<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
-</gx:TimeStamp>*/
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
 				<longitude>44.25850311196403</longitude>
 				<latitude>39.44457580821947</latitude>
 				<altitude>0</altitude>
@@ -196,7 +698,8 @@
 				<range>550.0187261838129</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_noanohakobune</styleUrl>
+
+			<styleUrl>#msn_wht-blank0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.25850311196403,39.44457580821947,0</coordinates>
@@ -204,7 +707,8 @@
 		</Placemark>
 		<Placemark>
 			<name>ノドの地</name>
-			<description>カインが弟のアベルを殺した</description>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPkwdRV0AE4CoB.jpg"><br>アベルを殺すカイン<br><br>カインとアベルは、アダムとイヴがエデンの園を追われた後に生まれた兄弟である。カインは農耕を行い、アベルは羊を放牧するようになった。
+ある日2人は各々の収穫物をヤハウェに捧げる。カインは収穫物を、アベルは肥えた羊の初子を捧げたが、ヤハウェはアベルの供物に目を留めカインの供物は無視した。嫉妬にかられたカインはその後、野原にアベルを誘い殺害する。その後、ヤハウェにアベルの行方を問われたカインは「知りません。私は弟の監視者なのですか？」と答えた。これが人間のついた最初の嘘としている。しかし、大地に流されたアベルの血はヤハウェに向かって彼の死を訴えた。カインはこの罪により、エデンの東にあるノドの地に追放された。]]></description>
 			<Camera>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -216,7 +720,7 @@
 				<roll>-1.129341281413736</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>44.42109298192337,40.57924298003609,0</coordinates>
@@ -224,7 +728,8 @@
 		</Placemark>
 		<Placemark>
 			<name>エデンの園</name>
-			<description>アダムとエバの生まれた地</description>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPkwdVVoAAqeY8.jpg"><br>楽園から追放されるアダムとエバ<br><br>アダムとエバは、エデンの園を耕させ、守らせるために、神によって、そこに置かれた。
+ヤハウェはアダムとイヴが禁じられていた知恵の樹の実（禁断の果実）を食べたことから知識をもったひとりとなり、また、生命の樹の実をも食べたことから永遠に生きることを恐れ、エデンの園から追放した。]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -236,7 +741,7 @@
 				<range>297228.7081880006</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_caution</styleUrl>
+			<styleUrl>#msn_wht-blank0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>43.86440844095853,40.56256998856255,0</coordinates>
@@ -244,7 +749,10 @@
 		</Placemark>
 		<Placemark>
 			<name>紅海スエズ湾</name>
-			<description>ヨセフの時代にエジプトに移住していたイスラエル人達が王朝が変わったために迫害されるようになったが、エジプトで教育を受けたモーセが、イスラエル人たちを率いてエジプトを脱出した。エジプト軍の追跡を逃れるために、この海を二つに割って逃げ出した。</description>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhUFrV0AASF_q.jpg"><br>
+海を割るモーセ<br><br>
+
+ヨセフの時代にエジプトに移住していたイスラエル人達が王朝が変わったために迫害されるようになったが、エジプトで教育を受けたモーセが、イスラエル人たちを率いてエジプトを脱出した。エジプト軍の追跡を逃れるために、この海を二つに割って逃げ出した。]]></description>
 			<LookAt>
 				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
 </gx:TimeStamp>
@@ -256,10 +764,218 @@
 				<range>258542.4903089882</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_cc</styleUrl>
+			<styleUrl>#msn_wht-blank10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>32.69894249842527,29.2241496511931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ソドムとゴモラ</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhGErV0AEe-HX.jpg"><br>ソドムとゴモラ<br><br>甚だしい性の乱れが最大の原因で、天からの硫黄と火によって滅ぼされたとされる商業都市。ヤハウェの裁きによる滅びの象徴として用いられる。]]></description>
+			<LookAt>
+
+				<longitude>34.97894570293148</longitude>
+				<latitude>31.03461291833913</latitude>
+				<altitude>0</altitude>
+				<heading>-0.9597324430446074</heading>
+				<tilt>0</tilt>
+				<range>178386.8547647784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.97894570293148,31.03461291833913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>シナイ半島</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPeoTCUMAAo3Pd.jpg">
+<br>
+モーセの十戒<br><br>エジプト人として教育を受けたモーセが、神から召命を受けて立ち上がりイスラエル人たちを率いてエジプトを脱出し、「乳と蜜の流れる」カナンの地を目指しながら40年間放浪することとなる半島。
+シナイ山でモーセとイスラエル人は神から十戒を授かる。]]></description>
+			<LookAt>
+
+				<longitude>33.84358507999107</longitude>
+				<latitude>29.22610322431071</latitude>
+				<altitude>0</altitude>
+				<heading>-1.997775104541627</heading>
+				<tilt>0</tilt>
+				<range>496531.2126822925</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.14452665723869,28.51218738225439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネボ山</name>
+			<description>ネボ山から約束の地であるカナンを遠く望んだモーセは、ここでヨシュアを後継者に指名し息を引き取った。</description>
+			<LookAt>
+
+				<longitude>35.49308880503426</longitude>
+				<latitude>31.76889817715408</latitude>
+				<altitude>0</altitude>
+				<heading>-0.7259065137070705</heading>
+				<tilt>0</tilt>
+				<range>108968.0597356822</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.78127329249301,31.67387789489661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>エリコ</name>
+			<description>アイコン：モーセとカナンからの使者
+
+モーセの後継者であるヨシュアが約束の地に入るべくヨルダン川を渡ってエリコを攻めた。エリコの城壁は司祭たちが吹く角笛と民の叫びの前に崩壊した。ヨシュアはエリコの人民を全て虐殺した。</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>35.46209475997843</longitude>
+				<latitude>31.86124494218132</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001052505145401601</heading>
+				<tilt>0</tilt>
+				<range>7754.729556209039</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.46209475997843,31.86124494218132,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヘブロン</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPhUFvVwAEjB8j.jpg"><br>
+ゴリアテの首を持つダビデ<br><br>
+
+神の託宣を受けたダビデはヘブロンに赴き、油を注がれてユダの王になった。ユダの一族を率いたダビデは、サウルの後を継いだサウルの息子イシュ・ボシェト率いるイスラエルの軍勢と戦いを繰り返し、全イスラエルの王、指導者になり、エルサレムに進撃してそこを都とした。]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>35.09982599970024</longitude>
+				<latitude>31.53256900011633</latitude>
+				<altitude>0</altitude>
+				<heading>-1.567854430227441e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000200044652</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.09980648122888,31.53234440332854,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ガザ</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPnVkZUMAAbV4r.jpg"><br>目をえぐられるサムソン<br><br>
+
+古代イスラエルの士師の1人で、怪力の持ち主であったサムソンが目をえぐり出され、処刑された地。
+ガザの牢で粉を引かされていたサムソンはペリシテ人に見世物にされていたが、サムソンは神に祈って力を取り戻し、繋がれていた2本の柱を倒して建物を倒壊させ、多くのペリシテ人を道連れにして死んだ。]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>34.290515200429</longitude>
+				<latitude>31.38559798379598</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4145179899748798</heading>
+				<tilt>0</tilt>
+				<range>68006.37301357195</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.31485869325504,31.32081206924275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>エルサレム</name>
+			<description>紀元前1000年頃にヘブライ王国が成立すると、2代目のダビデ王によって都と定められた。その後、3代目のソロモン王によって王国は絶頂期を迎え、エルサレム神殿が建設されたが、その死後の紀元前930年ごろに王国は南北に分裂、エルサレムはユダ王国の都となった。ユダ王国ではダビデ王の血筋が続くものの最後にはバビロニアに滅ぼされ、神殿は破壊されて多数の国民が連行されてしまう（バビロン捕囚）。</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>35.21371000384384</longitude>
+				<latitude>31.76831900354083</latitude>
+				<altitude>0</altitude>
+				<heading>2.023702659116177e-009</heading>
+				<tilt>0</tilt>
+				<range>25222.61142288465</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.21371000384383,31.76831900354083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>新バビロニア</name>
+			<description>カルデアの将軍ナボポラッサルにより建国された国。ネコ2世率いるエジプト軍を撃退し、ユダ王国に二度の遠征を行い、これを滅ぼした。</description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>44.44715565780123</longitude>
+				<latitude>32.2020458817654</latitude>
+				<altitude>0</altitude>
+				<heading>0.05010971223669217</heading>
+				<tilt>8.853164888425624</tilt>
+				<range>1924.023147108922</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>44.44715565780123,32.2020458817654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>エルサレム神殿</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPks7-VYAEy13G.jpg"><br>神殿から商人を追い払うキリスト<br><br>イスラエル王国の3代の王であるソロモンが築いた神殿。ユダ王国がバビロニアにより滅亡したのち衰微するが、ペルシア帝国のもとでユダヤ人の帰還が許され、神殿も再建された。]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>35.23599283623734</longitude>
+				<latitude>31.77811610525154</latitude>
+				<altitude>0</altitude>
+				<heading>-8.052051259327113e-011</heading>
+				<tilt>0</tilt>
+				<range>1003.769616507554</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>35.23599283623734,31.77811610525155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ペルセポリス</name>
+			<description><![CDATA[<img src="https://pbs.twimg.com/media/DBPks8DUAAEqtNu.jpg"><br>首都ペルセポリスの遺跡<br><br>ペルシア王国の首都。バビロニア王国を滅ぼし、バビロニア王国により移住させられたユダヤ人を解放し、バビロン捕囚を終焉させた。キュロス2世の息子カンビュセス2世により、エジプトを併合して、古代オリエント世界を統一した。ダレイオス1世がペルシア戦争を起こしたが敗北した。ダレイオス3世のときマケドニアのアレクサンドロスにより征服され滅亡した。]]></description>
+			<LookAt>
+				<gx:TimeStamp><when>2016-06-26T11:00:28.844153881Z</when>
+</gx:TimeStamp>
+				<longitude>52.88877694260207</longitude>
+				<latitude>29.9356660983215</latitude>
+				<altitude>0</altitude>
+				<heading>0.0004905187470708276</heading>
+				<tilt>0</tilt>
+				<range>6843.910600101978</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>52.88877694260207,29.9356660983215,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
